@@ -11,8 +11,6 @@
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/VK.json", {onProgress: UnityProgress});
     </script>
-	
-	                        
 <script type="text/javascript" src="//vk.com/js/api/xd_connection.js?2" charset="utf-8"></script>
 <script type="text/javascript" src="//ad.mail.ru/static/admanhtml/rbadman-html5.min.js" charset="utf-8"></script>
 <script type="text/javascript" src="//vk.com/js/api/adman_init.js" charset="utf-8"></script>
@@ -26,7 +24,7 @@
       user_id: user_id,
       app_id: 7788660,
       type: 'preloader'         // 'preloader' or 'rewarded' (default - 'preloader')
-      // params: {preview: 1}   // to verify the correct operation of advertising
+      //params: {preview: 1}   // to verify the correct operation of advertising
     }, onAdsReady, onNoAds);
  
     function onAdsReady(adman) {
@@ -39,16 +37,10 @@
     function onNoAds() {};
   });
 </script>
-    
   </head>
   <body>
     <div class="webgl-content">
       <div id="unityContainer" style="width: 720px; height: 1280px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Spin Faster</div>
-      </div>
     </div>
   </body>
 </html>
