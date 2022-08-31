@@ -66,7 +66,8 @@
               <h1 class="hero-title">Sounds For Deep Sleep</h1>
               <p class="mb-4 fw-medium">Tropical Beach Ambience & Ocean Sounds<br class="d-none d-xl-block" />Calm On The Most Beautiful Beach</p>
               
-			  <!--<div class="text-center text-md-start"> 
+			  <!--    Video    
+			  <div class="text-center text-md-start"> 
 				
 				<a href="#!" role="button" data-bs-toggle="modal" data-bs-target="#popupVideo">
 				<span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow">
@@ -81,62 +82,101 @@
                     </div>
                   </div>
                 </div>
-              </div>-->
+              </div>
+			  -->
 			  
             </div>
           </div>
         </div>
       </section>
+	  
+	<!-- Модальное окно - вызывается с разным содержимым, в зависимости от того, какая кнопка была нажата -->
+    <div class="modal fade" id="video_modal" tabindex="-1" aria-labelledby="videoInterview" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <iframe class="rounded" style="width:100%;height:90vh;" src="" class="d-block" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
+	  
       <section class="pt-5" id="destination">
 
         <div class="container">
           <div class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"><img src="assets/img/dest/shape.svg" alt="destination" /></div>
           <div class="row">
+			
             <div class="col-md-4 mb-4">
-              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="cover-img/1c.jpg" alt="Rome, Italty" />
+              <div class="card overflow-hidden shadow"> 
+				<a href="#" data-bs-toggle="modal" data-bs-target="#video_modal" data-bs-video-url="https://www.youtube.com/embed/vY0Ewx3WfFg">
+					<img class="card-img-top" src="cover-img/1c.jpg"/>
+					<span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"><img src="assets/img/hero/play.svg" width="15" alt="paly"/></span>
+				</a>
                 <div class="card-body py-4 px-3">
                   <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Tropical Calm</a></h4>
+                    <h4 class="text-secondary fw-medium">Tropical Calm</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+			
+			<div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow">
+			  <a href="#" data-bs-toggle="modal" data-bs-target="#video_modal" data-bs-video-url="https://www.youtube.com/embed/rK-2UqTEBhg">
+					<img class="card-img-top" src="cover-img/2c.jpg"/>
+					<span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"><img src="assets/img/hero/play.svg" width="15" alt="paly"/></span>
+				</a>
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium">Sea Sounds</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+			
+			<div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow">
+			  <a href="#" data-bs-toggle="modal" data-bs-target="#video_modal" data-bs-video-url="https://www.youtube.com/embed/9KkoRTrmWHk">
+					<img class="card-img-top" src="cover-img/3c.jpg"/>
+					<span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"><img src="assets/img/hero/play.svg" width="15" alt="paly"/></span>
+				</a>
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium">Caribbean Dream</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+			
+			<div class="col-md-4 mb-4">
+              <div class="card overflow-hidden shadow">
+			  <a href="#" data-bs-toggle="modal" data-bs-target="#video_modal" data-bs-video-url="https://www.youtube.com/embed/bn9F19Hi1Lk">
+					<img class="card-img-top" src="cover-img/4c.jpg"/>
+					<span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"><img src="assets/img/hero/play.svg" width="15" alt="paly"/></span>
+				</a>
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium">Beach Relief</h4>
                   </div>
                 </div>
               </div>
             </div>
 			<div class="col-md-4 mb-4">
-              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="cover-img/2c.jpg" alt="Rome, Italty" />
+              <div class="card overflow-hidden shadow">
+			  <a href="#" data-bs-toggle="modal" data-bs-target="#video_modal" data-bs-video-url="https://www.youtube.com/embed/yvd8PObLWsg">
+					<img class="card-img-top" src="cover-img/5c.jpg"/>
+					<span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"><img src="assets/img/hero/play.svg" width="15" alt="paly"/></span>
+				</a>
                 <div class="card-body py-4 px-3">
                   <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Sea Sounds</a></h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-			<div class="col-md-4 mb-4">
-              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="cover-img/3c.jpg" alt="Rome, Italty" />
-                <div class="card-body py-4 px-3">
-                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Caribbean Dream</a></h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-			<div class="col-md-4 mb-4">
-              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="cover-img/4c.jpg" alt="Rome, Italty" />
-                <div class="card-body py-4 px-3">
-                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Beach Relief</a></h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-			<div class="col-md-4 mb-4">
-              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="cover-img/5c.jpg" alt="Rome, Italty" />
-                <div class="card-body py-4 px-3">
-                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Tropical Meditation</a></h4>
+                    <h4 class="text-secondary fw-medium">Tropical Meditation</h4>
                   </div>
                 </div>
               </div>
@@ -225,9 +265,6 @@
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
-
-
-
       <!-- ============================================-->
       <!-- <section> begin ============================-->
       <section id="testimonial">
@@ -308,6 +345,7 @@
 
 
 
+
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
@@ -319,6 +357,49 @@
     <script src="assets/js/theme.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
+  
+	<script>
+        'use strict'
+
+
+        function OpenVideoModal(htmlId, htmlDataAttr) {
+
+            const videoModal = document.getElementById(htmlId);
+            let iframe;
+
+            // событие, возникающее при отображении модального окна
+            videoModal.addEventListener('show.bs.modal', function (event) {
+                // Кнопка, которая вызвала данный модал
+                const button = event.relatedTarget;
+                // Вытаскиваем данные из аттрибута data-bs-video-url*
+                // в нашем случаем там содержится ссылка на видео
+                const videoUrl = button.getAttribute(htmlDataAttr);
+                // для отладки - в консоль
+                //console.log(videoUrl)
+
+                // ссылка на фрейм с видео в разметке
+                iframe = videoModal.querySelector('.modal-body iframe');
+
+                // загружаем видео в фрейм
+                iframe.src = videoUrl;
+            });
+
+            // событие, возникающее при закрытии модального окна
+            videoModal.addEventListener('hide.bs.modal', function (event) {
+                // удаляем ссылку на источник видео - останавливаем видео
+                iframe.src = '';
+            });
+        }
+
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // при загрузке страницы - вешаем обработчики на модальное окно
+            OpenVideoModal('video_modal', 'data-bs-video-url');
+        });
+    </script>
+  
   </body>
 
 </html>

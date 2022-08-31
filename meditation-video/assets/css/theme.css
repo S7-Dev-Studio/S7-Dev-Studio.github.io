@@ -6283,7 +6283,7 @@ fieldset:disabled .btn {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 0.5rem;
+  margin: 0rem; /* было 0.5rem; */
   pointer-events: none;
 }
 
@@ -6352,10 +6352,10 @@ fieldset:disabled .btn {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #FFFEFE;
+  /* background-color: #FFFEFE; */
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 2.25rem;
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
+  /* border-radius: 2.25rem; */
   outline: 0;
 }
 
@@ -19642,3 +19642,11 @@ iframe {
 -----------------------------------------------*/
 
 /*# sourceMappingURL=theme.css.map */
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
