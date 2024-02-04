@@ -1,5 +1,11 @@
 {
-"image": "https://i.ibb.co/d7hCnrf/Sovid-logo-2-1.png",
-"description": "33Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-"extensions": {"site":"https://solanadoge.carrd.co/", "telegram":"https://t.me/Solronavirus", "twitter":"https://twitter.com/SDogeonsolana"}
+	"image": "https://i.ibb.co/d7hCnrf/Sovid-logo-2-1.png",
+	"external_url": "https://solanadoge.carrd.co/",
+	"description": "33Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+	"extensions":
+	{
+	"site":"https://solanadoge.carrd.co/",
+	"telegram":"https://t.me/Solronavirus",
+	"twitter":"https://twitter.com/SDogeonsolana"
+	}
 }
