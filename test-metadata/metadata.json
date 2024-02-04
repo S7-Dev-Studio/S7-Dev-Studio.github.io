@@ -2,5 +2,9 @@
     "name": "Best3 Token",
     "symbol": "BT3",
     "image": "https://i.ibb.co/d7hCnrf/Sovid-logo-2-1.png",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."    
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "extensions":{
+"telegram":string"https://t.me/Solronavirus"
+"description":Solana's fastest spreading GERM. The pandemic you never knew you wanted has arrived. There is no vaccine, and masks will not help. This is the virus you never want to recover from. https://t.me/Solronavirus"
+}
 }
